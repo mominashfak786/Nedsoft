@@ -1,0 +1,23 @@
+.above
+{
+  margin-top: 100px;
+}
+@media (max-width: 768px) {
+  .ml-md-5 {
+      margin-left: 0 !important;
+  }
+  .ml-md-10 {
+      margin-left: 0 !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .navbar-brand img {
+      width: 150px !important;
+  }
+  .above {
+      padding-top: 50px !important;
+      text-align: center;
+  }
+  
+}
